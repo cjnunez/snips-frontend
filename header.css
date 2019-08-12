@@ -1,0 +1,28 @@
+header {
+    padding: 10px 2rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+header nav ul li {
+    padding: 5px;
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: grey;
+    transition: color 0.2s;
+}
+
+.default-header {
+    background-color: cadetblue;
+}
+
+#competitors {
+    background-color: aqua;
+}

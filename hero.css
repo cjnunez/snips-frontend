@@ -1,0 +1,21 @@
+#hero {
+    height: 50vh;
+    min-height: 300px;
+    padding: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1488235331161-a610983be307?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#hero h1 {
+    margin-bottom: 1rem;
+    font-size: 5em;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+#hero h2 {
+    font-size: 2em;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+
+}

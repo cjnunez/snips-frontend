@@ -1,42 +1,34 @@
-<!DOCTYPE html>
+< !DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Snips</title>
   </head>
   <body>
-    <header>
+    <header class="default-header">
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="pages/about.html">About</a></li>
           <li><a href="pages/snippets.html">Snippets</a></li>
           <li><a href="pages/account.html">Account</a></li>
+          <li><a href="#competitors">Competitors</a></li>
         </ul>
-        <!-- TODO: put in the logo  -->
       </nav>
-      <hr/ >
+      <hr />
     </header>
     <main>
-      <section>
-        <img
-          src="images/image3.jpg"
-          alt="Image not found"
-          style="max-width: 600px;"
-        />
-        <h1>
-          Snips
-        </h1>
+      <section id="hero">
+        <h1>Snips</h1>
         <h2>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-          repudiandae, velit minima, illum maiores sunt quas eaque aliquam
-          nesciunt quos commodi error veritatis quae dolore
+          The slickest, fastest, way to save and share your code snippets.
         </h2>
       </section>
       <section>
         <img
-          src="https://images.unsplash.com/photo-1488235331161-a610983be307?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60"
+          src="images/image3.jpg"
           alt="online pic"
           style="max-width: 600px;"
         />
@@ -51,7 +43,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ex sit
           unde cupiditate modi. Porro sapiente pariatur, repellat sit minima
           quisquam praesentium molestiae nobis illo omnis magni quia. Laborum,
-          voluptate!
+          voluptate !
         </p>
         <img src="images/cam3.jpg" alt="cam 3" style="max-width: 600px;" />
         <p>
@@ -62,15 +54,15 @@
         </p>
       </section>
       <section>
-        <h2>Competitors</h2>
-        <iframe src="https://wesbos.com/" frameborder="0"></iframe>
-        <iframe src="https://codepen.io/" frameborder="0"></iframe>
+        <h2 id="competitors">Competitors</h2>
+
+        <iframe src="https://wesbos.com/" frameborder="0"></iframe
+        ><iframe src="https://codepen.io/" frameborder="0"></iframe>
       </section>
     </main>
     <footer>
-      <a href="https://talentpath.com">Talent Path</a>
-      <span>© 2019</span>
-      <a href="mailto: xyz@genuent.com">Email Corporate</a>
+      <a href="https://talentpath.com">Talent Path</a><span>© 2019</span
+      ><a href="mailto: xyz@genuent.com">Email Corporate</a>
     </footer>
   </body>
 </html>
